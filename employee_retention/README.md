@@ -2,4 +2,4 @@ Employee retention is vital for organizational success, as high turnover leads t
 
 
 
-The dataset is provided in the folder hr_data obtained from kaggle that contains HR employee information from a undisclosed company.
+The dataset is provided in the folder, with the file named hr_data obtained from kaggle that contains various employee behaviour information.
