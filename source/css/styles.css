@@ -1,0 +1,362 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* to clip off extra content */
+}
+
+
+/* To ensure a smoother scroll experience 
+when clicking on links in navbar*/
+html {
+
+    scroll-behavior: smooth;
+
+
+}
+
+
+/* container for the navigation bar */
+.nav-container {
+    width: 50%;
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+    gap: 6rem;
+    color: #D3DAD9;
+    height: 100%;
+    padding: 10px 10px 0 0;
+
+
+
+}
+
+
+
+body {
+    background-color: #D3DAD9
+}
+
+/* some embedded fonts */
+.playfair-display {
+    font-family: "Playfair Display", serif;
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.source-sans-3 {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+nav {
+    background-color: #37353E;
+    height: 4rem;
+
+}
+
+.brief-intro {
+    width: 100%;
+    text-align: left;
+
+
+
+    border-radius: 8px;
+
+}
+
+#brief-intro-text {
+    font-size: 1.86rem;
+    text-align: left;
+    padding: 0 30px 30px 30px;
+    color: #948979
+}
+
+nav a:link,
+a:visited {
+
+    color: #D3DAD9;
+    text-decoration: none;
+    font-size: 1.5rem
+}
+
+
+nav a:hover
+{
+
+    color: #DFD0B8
+   
+}
+
+
+
+
+
+
+.img-container img {
+
+    display: block;
+    margin-left: auto;
+    width: 65%;
+    border-radius: 50%;
+}
+
+.header-intro {
+    width: 100%;
+
+
+    color: #DFD0B8;
+}
+
+.header-titles h1 {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.header-titles {
+    background-color: #715A5A;
+    border-radius: 20px;
+}
+
+
+.header-intro h1 {
+    font-size: 3.5rem
+}
+
+.intro-sec {
+    padding-left: 5%;
+}
+
+.intro-container {
+    background-color: #44444E;
+    padding-top: 50px;
+    padding-left: 0;
+
+
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.git-link:link,
+.git-link:visited {
+    color: #37353E;
+    font-size: 1.5rem;
+}
+
+.skills-table,
+th {
+    border: solid;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.skills-table {
+    width: 100%;
+    background-color: #44444E;
+    color: #DFD0B8
+}
+
+ul {
+    background-color: #44444E;
+    color: #DFD0B8;
+
+}
+
+.row,
+h1 {
+    margin-bottom: 1rem;
+
+}
+
+p,
+tr,
+ul {
+    font-size: 1.3rem;
+}
+
+.courses-list ul {
+
+    padding: 20px 50px;
+    /* to prevent user from selecting course list items */
+    user-select: none;
+}
+
+
+.courses-list li:hover {
+
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+.hobbies-row {
+    margin-top: 100px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.about-me-grid {
+    margin-top: 3rem
+}
+
+#about-me-title {
+    text-align: center;
+    font-size: 4rem;
+    background-color: #DFD0B8;
+    margin-top: 5rem;
+    margin-bottom: 2rem
+}
+
+.solid-back {
+    background-color: #715A5A;
+    text-align: center;
+    color: #44444E
+}
+
+
+#contact-info {
+    position: relative;
+    top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.contact-info-title {
+    font-size: 3rem;
+    background-color: #DFD0B8;
+    padding: 10px
+}
+
+
+
+.profile-links a:link,
+.profile-links a:visited,
+.social-media-links a:link,
+.social-media-links a:visited {
+    color: #948979;
+    font-size: 1.6rem;
+    text-decoration: none;
+
+}
+
+
+.contact-cards {
+    background-color: white;
+    height: 90%;
+    padding: 10px;
+    padding-left: 20px
+}
+
+
+.hobbies-text {
+    text-align: justify;
+}
+
+.about-me-titles {
+    padding: 20px 0;
+}
+
+.footer-nav p{
+    font-size: 1rem;
+}
+
+
+.brief-desc{
+    display: none;
+    font-size: 1rem;
+    color:#948979
+}
+
+.current-learning{
+    width:90%;
+    margin: auto;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-color: #948979;
+    color:#DFD0B8
+}
+
+
+
+
+/* media queries for responsive layout */
+@media (max-width: 991px) {
+
+    .img-container {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom:1rem
+    }
+
+    .img-container img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .header-intro h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #brief-intro-text {
+        font-size: 2rem;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hobbies-row {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .courses-list{
+        margin-top:3rem
+    }
+
+}
+/* changing styles to adapt to smaller screens */
+
+@media(max-width:988px){
+    .nav-container {
+        width: 100%;
+        justify-content: center;
+        gap: 1.5rem;
+        padding-right: 0;
+    }
+}
+
+@media(max-width:565px) {
+    #brief-intro-text {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 20px;
+    }
+
+    
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    
+    tr,
+    ul,p {
+        font-size: 1rem;
+    }
+
+}
